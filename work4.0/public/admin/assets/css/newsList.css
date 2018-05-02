@@ -1,0 +1,242 @@
+.clearfix::after{
+    content: '';
+    display:block;
+    clear: both;
+}
+.navbars{
+    border-bottom: 1px solid #ccc;
+    height: 30px;
+    margin-top: 20px;
+}
+.navbars span{
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-bottom-color: #fff;
+    background: #ccc;
+    color: #888;
+    cursor: pointer;
+}
+#Footable2{
+    display: none;
+}
+.navactive{
+    background: #fff !important;
+    color: #888 !important;
+}
+#switch-che{
+    display: inline-block;
+    width: 100px;
+    height:30px;
+    overflow: hidden;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    position: relative;
+    vertical-align:top;
+}
+#switch-item{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 160px;
+    transition:all  .4s ease-in-out ;
+    cursor: pointer;
+}
+#switch-item span{
+    display:block;
+    float: left;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.switch-che{
+    display: inline-block;
+    width: 100px;
+    height:30px;
+    overflow: hidden;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    position: relative;
+    vertical-align:top;
+}
+.switch-item{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 160px;
+    transition:all  .4s ease-in-out ;
+    cursor: pointer;
+}
+.switch-item span{
+    display:block;
+    float: left;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.switch-on{
+    background: #1979CA;
+    color: #fff;
+}
+.switch-off{
+    background: #ddd;
+    color: #666;
+}
+.prizeshows{
+
+    background: #2986AF;
+    margin: -200px 0  0 -250px;
+    top:50%;
+    left:50%;
+    position: absolute;
+    width: 500px;
+    height:400px;
+    z-index: 100;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #333;
+    box-sizing: border-box;
+    padding: 30px 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.prizeadd{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: none;
+    top:0;
+    left:0;
+}
+.prizemask{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.5);
+    top:0;
+    left:0;
+}
+.prizeshows input{
+    border: none;
+    /*outline: none;*/
+    color: #333;
+    height: 30px;
+    width: 300px;
+    padding: 0 5px;
+    border-radius: 3px;
+}
+.prizeshows select{
+    border: none;
+    /*outline: none;*/
+    color: #333;
+    height: 30px;
+    width: 300px;
+    padding: 0 5px;
+    border-radius: 3px;
+}
+.model-inputs{
+    font-size:14px;
+    line-height: 2em;
+    margin-top:20px;
+}
+.model-inputs input{
+    font-size:14px;
+    height: 2em;
+    width: 400px;
+    color: #333;
+    padding: 0 5px;
+}
+.model-btns{
+    padding-right: 20px;
+    text-align: right;
+    margin-top: 20px;
+}
+#addoption-inp{
+    display: none;
+}
+.addoption-main{
+    color: #333;
+    padding-left: 74px;
+    font-size:14px;
+}
+.addoption-main input{
+    font-size:14px;
+    height: 2em;
+    width: 350px;
+    color: #333;
+    padding: 0 5px;
+    margin-top: 10px;
+}
+.addoption-main i{
+    font-style: normal;
+    padding-left:15px;
+    color: #e05a4b;
+    cursor: pointer;
+}
+.addoption-main span{
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#switch-ches{
+    display: inline-block;
+    width: 100px;
+    height:30px;
+    overflow: hidden;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    position: relative;
+    vertical-align:top;
+}
+#switch-items{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 160px;
+    transition:all  .4s ease-in-out ;
+    cursor: pointer;
+}
+#switch-items span{
+    display:block;
+    float: left;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.switch-ches{
+    display: inline-block;
+    width: 100px;
+    height:30px;
+    overflow: hidden;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    position: relative;
+    vertical-align:top;
+}
+.switch-items{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 160px;
+    transition:all  .4s ease-in-out ;
+    cursor: pointer;
+}
+.switch-items span{
+    display:block;
+    float: left;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.switch-ons{
+    background: #1979CA;
+    color: #fff;
+}
+.switch-offs{
+    background: #ddd;
+    color: #666;
+}
